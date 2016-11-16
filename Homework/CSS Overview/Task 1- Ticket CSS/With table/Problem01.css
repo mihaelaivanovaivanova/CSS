@@ -1,0 +1,55 @@
+body, table, tr,td{
+  margin:0px;
+  padding:0px;
+  font-family:sans-serif;
+}
+
+table{
+  padding-top:5px;
+  background-color:#595959;
+  width:300px;
+}
+
+th{
+  color:#BBBBBB;
+  font-weight: normal;
+  text-align: left;
+}
+
+td {
+  vertical-align:middle;
+  padding:10px 90px 0px 0px;
+  font-size: 10px;
+}
+
+.information{
+  color: white;
+  font-style: italic;
+  padding-right: 20px;
+}
+
+#name,#email,#link{
+  color:#d2d08b;
+}
+
+#name{
+  margin-bottom: 0;
+}
+
+ul{
+  padding-left:15px;
+  padding-bottom:0;
+  list-style: url("./disk.png") disc;
+}
+
+#respond{
+  color:red;
+  padding-top: 0;
+}
+
+#status{
+  color:#e36a24;
+}
+.answers{
+  color:#BBBBBB;
+}
