@@ -1,0 +1,162 @@
+body>div{
+    background-color: rgba(185,222,251,0.75);
+    width:450px;
+    height: 430px;
+    border:0px solid #939FAC;
+    border-radius: 10px;
+    font-size: 14px;
+    font-family: Consolas, sans-serif;
+}
+
+body>div>div>img{
+    vertical-align: center;
+    margin-top: 7px;
+    margin-left: 10px;
+    margin-bottom: 0px;
+    display:inline-block;
+}
+
+body>div>div>h1{
+    display: inline-block;
+    font-size:1.0em;
+    font-weight: normal;
+    font-family: Tahoma,Geneva,Verdana,sans-serif;
+    vertical-align: top;
+}
+
+body>div>div button{
+    float:right;
+}
+body>div>div button:first-of-type{
+    margin-right:5px;
+}
+
+body div div#container{
+    margin-left:5px;
+    margin-right:5px;
+    width: 438px;
+    border: 1px solid #939FAC;
+}
+
+table#nav{
+    border-spacing: 0px;
+}
+
+body div div button#minimizer{
+    width:29px;
+    height:20px;
+    background-image: url("windows.png");
+    border:0px solid black;
+    border-bottom-left-radius: 3px;
+
+}
+body div div button#maximizer{
+    width:29px;
+    height:20px;
+    background-image: url("windows.png");
+    background-position-x: -28px;
+    border:0px solid black;
+}
+
+body div div button#close{
+    width:48px;
+    height:20px;
+    background-image: url("windows.png");
+    background-position-x: -56px;
+    border:0px solid black;
+    border-bottom-right-radius: 3px;
+}
+
+div table#menu tr td{
+    padding-right: 15px;
+}
+
+div table#menu tr td:first-letter{
+text-decoration: underline;
+}
+
+div table#menu{
+    margin:0;
+    padding: 0;
+    width:438px;
+    height: 22px;
+    background: #ffffff;
+    background: -moz-linear-gradient(top, #ffffff 15%, #e3e8f8 50%);
+    background: -webkit-linear-gradient(top, #ffffff 15%,#e3e8f8 50%);
+    background: linear-gradient(to bottom, #ffffff 15%,#e3e8f8 50%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e3e8f8',GradientType=0 );
+    border-right:1px solid #939FAC;
+    border-bottom: 1px solid #C1C5D1;
+    border-collapse: collapse;
+    font-family: Tahoma,Geneva,Verdana,sans-serif;
+}
+
+div table#menu tr td:nth-last-of-type(){
+    width:350px;
+}
+
+input[type="text"]{
+    width:403px;
+    height: 50px;
+    margin-left:12px;
+    margin-right:18px;
+    margin-top:10px;
+    border: 1px solid #939FAC;
+    border-radius:3px;
+    background: #ffffff;
+    background: -moz-linear-gradient(top, #ecf2fc 0%, #ffffff 100%);
+    background: -webkit-linear-gradient(top, #ecf2fc 0%, #ffffff 100%);
+    background: linear-gradient(to bottom, #ecf2fc 0%m #ffffff 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ecf2fc',GradientType=0 );
+    font-size:1.9em;
+    font-family: Consolas, sans-serif;
+    text-align: right;
+    padding-right: 5px;
+}
+
+table#binary{
+    width:410px;
+    margin-left:13px;
+    margin-right:17px;
+    margin-top:5px;
+    border: 1px solid #939FAC;
+    border-radius:3px;
+    border-spacing: 0px;
+    line-height: 14px;
+}
+
+table#calc-1{
+    width:410px;
+    margin-left:10px;
+    margin-right:17px;
+    margin-top:5px;
+    line-height: 14px;
+}
+
+table#system{
+    width:80px;
+    padding-top:5px;
+    padding-bottom: 5px;
+    border: 1px solid #939FAC;
+    border-radius:3px;
+    border-spacing: 0px;
+    font-family: Tahoma;
+    font-size:0.85em;
+    line-height: 16px;
+}
+
+button.standart-button{
+    width:36px;
+    height:30px;
+}
+
+button#zero{
+    width:80px;
+    height:30px;
+}
+
+button#equals{
+    width:36px;
+    height:65px;
+}
+
