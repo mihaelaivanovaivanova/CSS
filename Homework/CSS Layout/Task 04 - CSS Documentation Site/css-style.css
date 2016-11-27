@@ -15,15 +15,18 @@ body div#wrapper main, body div#wrapper nav, body div#wrapper aside, body div#wr
     display:inline-block;
 }
 
-body div#wrapper main, body div#wrapper header{ 
+body div#wrapper main{ 
     border-collapse: collapse;
-    width:495px;
+    width:485px;
     border:1px solid #818181;
     background-color: white;
+    padding-left:5px;
+    padding-right:5px;
 }
 
 body div#wrapper header{
-    border-bottom: 0px;
+    border-bottom:1px solid #818181;
+    width:485px;
 }
 
 body div#wrapper nav ul li{
