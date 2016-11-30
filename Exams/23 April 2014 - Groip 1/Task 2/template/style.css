@@ -1,9 +1,14 @@
-html, body{
+html, body, ul, li,a{
+    margin:0;
+    padding: 0px;
+}
+div#wrapper{
+    padding:7px;
+}
+hhtml, body{
     width:960px;
     font-family: Courier New, Courier, monospace;
     font-size:16px;
-    margin:0;
-    padding: 0px;
 }
 
 div#wrapper ul{
@@ -21,13 +26,13 @@ div#wrapper ul li{
     padding-left: 21px;
     padding-right:21px;
     padding-top:11px;
-    padding-bottom: 11px;
+    padding-bottom: 9px;
     border:1px solid black;
     border-radius:10px;
     text-decoration: none;
     vertical-align: middle;
     text-align: center;
-    color:0000FF;
+    color:#0000FF;
     background: rgb(37,221,242);
     background: -moz-linear-gradient(top,  rgba(37,221,242,1) 0%, rgba(121,148,226,1) 100%);
     background: -webkit-linear-gradient(top,  rgba(37,221,242,1) 0%,rgba(121,148,226,1) 100%);
@@ -43,12 +48,9 @@ div#wrapper ul li{
     display:none;
 }
 
-.menu li:first-of-type:hover, .menu li:nth-of-type(2):hover, .menu li:last-of-type:hover {
+.menu li a:hover {
     position: relative;
     font-size: 1.25em;
-    width:1.25em;
-    height:1.25em;
-    margin-left:10px;
-    margin-top:-16px;
-    margin-right: 65px;
+    padding-left: 45px;
+    padding-right: 45px;
 }
