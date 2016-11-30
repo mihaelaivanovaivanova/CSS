@@ -42,10 +42,31 @@ div#wrapper ul li{
 
 .content ul li a{
     border:none;
+    background-color:inherit;
 }
 
 .content{
+    border:1px solid black;
+    border-radius: 10px;
+    padding-left:21px;
+    padding-right:21px;
+    padding-top:34px;
+    padding-bottom:28px;
     display:none;
+    background: rgb(254,255,255);
+    background: -moz-linear-gradient(top,  rgba(254,255,255,1) 0%, rgba(160,216,239,1) 100%);
+    background: -webkit-linear-gradient(top,  rgba(254,255,255,1) 0%,rgba(160,216,239,1) 100%);
+    background: linear-gradient(to bottom,  rgba(254,255,255,1) 0%,rgba(160,216,239,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#feffff', endColorstr='#a0d8ef',GradientType=0 );
+}
+
+.content h3{
+    text-decoration: underline;
+}
+
+.content p a{
+    text-decoration: none;
+    color:#0000FF;
 }
 
 .menu li a:hover {
@@ -53,4 +74,8 @@ div#wrapper ul li{
     font-size: 1.25em;
     padding-left: 45px;
     padding-right: 45px;
+}
+
+.menu li a:hover +div{
+    display:block;
 }
