@@ -3,8 +3,8 @@ body,html,div#wrapper{
     padding-top:3px;
     padding-left:1px;
     padding-right:0px;
-    font-size:11px;
-    font-family:sans-serif;
+    font-size:11.5px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 body div#wrapper{
@@ -24,14 +24,15 @@ body div#wrapper main{
     background-color: white;
     padding-left:5px;
     padding-right:5px;
+    margin-bottom:27px;
 }
 
 body div#wrapper header{
-    border-bottom:1px solid #818181;
     width:485px;
-    height:78px;
+    height:80px;
     padding: 0;
     margin: 0;
+    margin-bottom:px;
 }
 
 body div#wrapper nav>ul>li{
@@ -71,7 +72,7 @@ body div#wrapper nav{
 
 body div#wrapper main header h1{
     font-size:1.6em;
-    margin-top:23px;
+    margin-top:20px;
     margin-bottom:10px;
 }
 
@@ -85,7 +86,7 @@ button.previous, button.next{
     background-color: white;
     border:1px solid black;
     font-size:11px;
-    margin-bottom: 7px;
+    height: 18x;
 }
 
 button.previous{
@@ -129,6 +130,20 @@ body div#wrapper main section img{
 
 body div#wrapper main section a{
     color:#A63C3C;
+}
+
+section:last-of-type{
+    border-bottom:2px solid #818181;
+}
+
+div.buttons{
+    padding-bottom:6px;
+    border-bottom:2px solid #818181;
+}
+div.buttons:last-of-type{
+    margin-top:6px;
+    margin-bottom:36px;
+    border-bottom:2px solid #818181;
 }
 
 
