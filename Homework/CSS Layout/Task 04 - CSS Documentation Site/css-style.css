@@ -25,6 +25,7 @@ body div#wrapper main{
     padding-left:5px;
     padding-right:5px;
     margin-bottom:27px;
+    margin-right:2px;
 }
 
 body div#wrapper header{
@@ -79,7 +80,7 @@ body div#wrapper main header h1{
 body div#wrapper aside{
     float:right;
     width:141px;
-    border:1px solid #818181;
+    background-color: white;
 }
 
 button.previous, button.next{
@@ -140,10 +141,83 @@ div.buttons{
     padding-bottom:6px;
     border-bottom:2px solid #818181;
 }
+
 div.buttons:last-of-type{
     margin-top:6px;
     margin-bottom:36px;
     border-bottom:2px solid #818181;
 }
+
+body div#wrapper aside{
+    margin:0;
+    padding:0;
+    width:143px;
+    text-align: center;
+}
+
+body div#wrapper aside h4{
+     background-color: #808080;
+    color:white;
+    margin:0;
+    margin-bottom:7px;
+    padding:0;
+}
+
+body div#wrapper aside section{
+    border:1px solid #818181;
+    margin-bottom:1px;
+}
+
+body div#wrapper aside section input{
+    margin-left:12px;
+    margin-right:5px;
+    margin-bottom:6px;
+    padding:0;
+    height:17px;
+    width: 92px;
+}
+
+body div#wrapper aside section#search button{
+    margin:0;
+    padding:0;
+    height:17px;
+    width: 17px;
+    border: 1px solid #084279;
+    border-radius:3px;
+}
+
+body div#wrapper aside section a{
+    padding: 0;
+    margin: 0;
+    color:#A1302E;
+}
+
+body div#wrapper aside section p{
+    padding: 0;
+    margin: 0;
+}
+
+body div#wrapper aside section div{
+    padding-bottom:6px;
+}
+
+body div#wrapper aside section div.padding {
+    padding-top:6px;
+}
+
+body div#wrapper aside section button#styles{
+    margin-top:3px;
+    border: 1px solid #7CA9CA;
+    color:#0BC1FF;
+    height:28px;
+    width:98px;
+    background: rgb(172,224,252);
+    background: -moz-linear-gradient(left,  rgba(172,224,252,1) 0%, rgba(212,240,254,1) 15%, rgba(212,240,254,1) 85%, rgba(172,224,252,1) 100%);
+    background: -webkit-linear-gradient(left,  rgba(172,224,252,1) 0%,rgba(212,240,254,1) 15%,rgba(212,240,254,1) 85%,rgba(172,224,252,1) 100%);
+    background: linear-gradient(to right,  rgba(172,224,252,1) 0%,rgba(212,240,254,1) 15%,rgba(212,240,254,1) 85%,rgba(172,224,252,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ace0fc', endColorstr='#ace0fc',GradientType=1 );
+
+}
+
 
 
