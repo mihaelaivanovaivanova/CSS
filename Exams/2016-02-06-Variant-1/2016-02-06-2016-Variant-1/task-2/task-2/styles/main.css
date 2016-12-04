@@ -1,0 +1,105 @@
+html, body, div,h1,ul,li, strong, img, a{
+    margin: 0;
+    padding: 0;
+}
+
+body div#root{
+    padding-left: 18px;
+    padding-right: 30px;
+    padding-top: 29px;
+    padding-bottom: 42px;
+    width: 1025px;
+    height: 275px;
+}
+
+body div#root h1{
+    position: relative;
+    height: 44px;
+    padding-top: 15px;
+    padding-bottom: 8px;
+    background-color: #CCCCCC;
+    color:white;
+    text-shadow: 3px 2px 2px black;
+    text-align: center;
+    background-image: url("../imgs/logo.png");
+    background-repeat: no-repeat;
+    background-size:65px 22px;
+    background-position-y: 23px;
+    background-position-x: 337px;
+    
+}
+
+body div#root ul.superheroes{
+    list-style: none;
+}
+
+body div#root ul.superheroes li{
+    width: 175px;
+    height: 175px;
+    position: relative;;    
+    float: left;
+    margin-top: -15px;
+    margin-right:4px;
+}
+
+body div#root ul.superheroes li:first-of-type{
+    margin-left: 68px;
+}
+
+body div#root ul.superheroes li img{
+    width:175px;
+    height: 175px;
+    border:0px solid black;
+    border-radius: 15px;
+}
+
+body div#root ul.superheroes li a{
+    display: none;
+    background-color: #636363;
+    color:white;
+    margin-top:4px;
+    height: 23px;
+    text-decoration: none;
+    text-align: center;
+    padding-top:5px;
+}
+
+body div#root ul.superheroes li a:hover{
+text-decoration: underline;
+}
+
+body div#root ul.superheroes li strong{
+    position: relative;
+    top:50px;
+    right: 0px;
+    display: inline-block;
+    height: 40px;
+    width: 175px;
+    border:0px solid black;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-color:rgba(0,0,0,0.20);
+    padding-top: 11px;
+    text-align: center;
+    vertical-align: middle;
+    color:rgba(255,255,255,0.32);
+    font-size:19px;
+}
+
+body div#root ul.superheroes li:hover a{
+    display:block;
+    width:205px;
+}
+
+body div#root ul.superheroes li:hover img{
+    width:205px;
+    height:205px;
+}
+
+body div#root ul.superheroes li:hover strong{
+    width:205px;
+}
+
+body div#root ul.superheroes li:hover{
+    margin-right:34px;
+}
