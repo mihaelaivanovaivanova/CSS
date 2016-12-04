@@ -1,0 +1,30 @@
+html, body, div,h1, ul, li, strong, img, a{
+  margin:0;
+  padding: 0;
+}
+
+#root {
+  width: 1024px;
+  font-family: Arial;
+  background-color: black;
+  color:white;
+}
+
+body div#root ul.superheroes{
+  list-style: none;
+}
+
+body div#root ul.superheroes li{
+  display:inline-block;
+}
+
+body div#root ul.superheroes li img{
+  width:325px;
+  height: 325px;
+  border:2px solid #770000;
+  border-radius:20px;
+}
+
+body div#root ul.superheroes li a{
+  display:none;
+}
