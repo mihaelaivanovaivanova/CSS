@@ -7,13 +7,12 @@ html,body,header,div,nav,main,ul,li{
 }
 
 body div#wrapper{
-    height: 316px;
-    width:601px;
+    height: 315px;
+    width:607px;
     background-color: #1E3741;
-    border: 1px solid #295A68;
+    border: 2px solid #295A68;
     border-radius:4px;
     padding-top:7px;
-    padding-left:9px;
 }
 
 body div#wrapper header{
@@ -24,14 +23,45 @@ body div#wrapper nav.main-menu ul li{
     display: inline-block;
     padding-left:12px;
     padding-right:12px;
-    height:24px;
+    height:23px;
     background-color: #4B5F67;
-    padding-top:6px;
-    margin-right:-3px;
+    padding-top:7px;
+    margin-right:-2px;
 }
 
 body div#wrapper nav.main-menu ul li:first-of-type{
     padding-left:0px;
      background-color: #1E3741;
      color:white;
+     margin-left: 9px;
+}
+
+body div#wrapper nav.main-menu ul li:nth-of-type(2){
+    text-decoration: underline;
+}
+
+body div#wrapper nav.current-menu ul li{
+    width: 210px;
+    padding-top:9px;
+    padding-bottom: 12px;
+    padding-right: 15px;
+    border-bottom:1px solid #3A4F58;
+    padding-left: 9px;
+}
+
+body div#wrapper nav.current-menu ul li:first-of-type{
+    color:white;
+    background-color: #00968C;
+}
+
+body div#wrapper nav.current-menu ul li:last-of-type{
+    border: none;
+}
+
+body div#wrapper main{
+    display:inline-block;
+}
+
+body div#wrapper nav.current-menu {
+    float:left;
 }
