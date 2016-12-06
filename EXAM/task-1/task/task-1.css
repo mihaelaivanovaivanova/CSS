@@ -1,0 +1,128 @@
+html,body, div, img, a, p{
+    margin: 0;
+    padding: 0;
+}
+
+body div#wrapper{
+    margin-top:13px;
+    margin-left:14px;
+    border: 2px solid #DFE0E4;
+    border-radius:5px;
+    padding-left:19px;
+    padding-right:19px;
+    padding-top:19px;
+    font-family:sans-serif;
+    font-size:20px;
+    color:#777777;
+    width:702px;
+
+}
+
+body div#wrapper a{
+    text-decoration: none;
+    color:#777777;
+}
+
+body div#wrapper div div.header{
+    height: 62px;
+    margin-bottom:20px;
+}
+
+body div#wrapper div div.header img{
+    width: 60px;
+    height: 60px;
+    border: 1px solid #DFE0E4;
+    float:left;
+} 
+
+body div#wrapper div div.header div a.name{
+    color:#365899;
+    font-size:1.2em;
+    font-weight: bold;
+    display:inline-block;
+    margin-left:12px;
+    margin-top:6px;
+}
+
+body div#wrapper div div.header div a.timestamp{
+    margin-left:10px;
+    font-size:0.9em;
+    color:#999999;
+}
+
+body div#wrapper p{
+    line-height: 27px;
+    margin-bottom:25px;
+}
+
+body div#wrapper div.event{
+    box-shadow: 0px 0px 15px grey;
+}
+
+body div#wrapper div.event img{
+    width:702px;
+    height: 357px;
+}
+
+body div#wrapper div.event div.title, body div#wrapper div.event div.author, body div#wrapper div.event div.capital{
+    margin-left:18px;
+}
+
+body div#wrapper div.event div.title
+{
+    margin-top:23px;
+    font-family: serif;
+    color:black;
+    font-size:1.40em;
+    margin-bottom:5px;
+    padding-right:20px;
+}
+
+body div#wrapper div.event div.author{
+    font-size:0.8em;
+    color:#999999;
+    margin-bottom: 10px;
+}
+
+body div#wrapper div.event div.capital{
+    text-transform: uppercase;
+    font-size:0.8em;
+    color:#999999;
+    padding-bottom:25px;
+}
+
+body div#wrapper div.footer{
+    margin-top:27px;
+    padding-top:15px;
+    border-top:1px solid #999999;
+    margin-bottom:15px;
+}
+
+body div#wrapper div.footer a{
+    font-weight: bold;
+    font-size:0.9em;
+    margin-left:18px;
+}
+
+body div#wrapper div.footer a.like{
+    background-image: url("./imgs/like.png");
+    background-repeat: no-repeat;
+    padding-left: 27px;
+    background-size: 18px 18px;
+}
+
+body div#wrapper div.footer a.comment{
+    background-image: url("./imgs/comment.png");
+    background-repeat: no-repeat;
+    padding-left: 27px;
+    background-size: 18px 18px;
+}
+
+body div#wrapper div.footer a.share{
+    background-image: url("./imgs/share.png");
+    background-repeat: no-repeat;
+    padding-left: 27px;
+    background-size: 18px 18px;
+}
+
+

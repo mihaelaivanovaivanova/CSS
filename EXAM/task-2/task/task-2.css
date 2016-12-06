@@ -1,0 +1,96 @@
+html, body,nav,ul,li,main,code,ol,li,span{
+    margin:0;
+    padding: 0;
+    font-family:Consolas;
+    font-size:16px;
+}
+
+body nav.navigation{
+    background-color: #3C3C3C;
+    height: 55px;
+}
+
+body nav.navigation ul{
+    list-style-type: none;
+}
+
+body nav.navigation ul li:nth-of-type(2){
+    background-color: black;
+}
+
+body nav.navigation ul li{
+    display: inline-block;
+    color:#D3D3D3;
+    font-family:'Times New Roman', Times, serif;
+    height: 35px;
+    width:95px;
+    padding-top:20px;
+    border-right: 1px solid #544B4B;
+    text-align: center;
+    background-repeat: no-repeat;
+    padding-left:25px;
+    background-size: 20px 20px;
+    background-position-y: 15px;
+    background-position-x: 15px;
+    margin-left:-10px;
+}
+
+body nav.navigation ul li:hover{
+    background-color: #80807C;
+}
+
+body nav.navigation ul li.file-html{
+    background-image: url("./imgs/html-icon.png");
+}
+
+body nav.navigation ul li.file-css{
+    background-image: url("./imgs/css-icon.png");
+}
+
+body nav.navigation ul li.file-sass{
+    background-image: url("./imgs/sass-icon.png");
+}
+
+body main.container{
+    padding-left:10px;
+    background-color: black;
+    color:white;
+    line-height: 27px;
+}
+
+body main.container ol.code-lines{
+    list-style-type:decimal;
+    list-style-position: inside;
+    
+}
+
+body main.container ol.code-lines span{
+    font-size: 1.2em;
+}
+
+body main.container ol.code-lines li span.selector{
+    color:#FFFF00;
+}
+
+body main.container ol.code-lines li span.punctuation{
+    color:#808066;
+}
+
+body main.container ol.code-lines li span.property{
+    color:#00CCDD;
+}
+
+body main.container ol.code-lines li span.function{
+    color:#A52A2A;
+}
+
+li:hover span.selector{
+    background-color: #4C5354;
+    text-decoration: underline;
+    font-style: italic;
+}
+
+li:hover span.property{
+    background-color: #4C5354;
+    font-weight:bold;
+}
